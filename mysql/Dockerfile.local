@@ -1,6 +1,6 @@
 ARG PLATFORM=${PLATFORM}
 
-FROM --platform=${PLATFORM} mysql:8.0.28
+FROM --platform=${PLATFORM} mysql:8
 
 ADD ./conf.d/my.cnf /etc/mysql/conf.d/my.cnf
 
